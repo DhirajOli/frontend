@@ -1,0 +1,97 @@
+#first-text {
+    color: red;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.first-div {
+    background-color: aqua;
+}
+.header-main {
+    display: flex;
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+#parent h2:nth-of-type(2){
+  color: red;
+}
+
+
+table {
+    width: 100%;
+  }
+  th , td {
+    border: 2px solid #1b1717;
+    padding: 8px;
+    text-align: center;
+  }
+  thead {
+    background-color: rebeccapurple;
+  }
+  .table-title {
+    text-align: center;
+  }
+/*
+.container ul li {
+  display: inline;
+  padding: 20px;
+
+}
+ul {
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 32px;
+}
+  */
+
+.kartik-group {
+  background-image: url(../images/tree.jpg);
+}
+.footer {
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.footer li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer {
+  list-style-type: none;
+}
+.cards {
+  background-color: antiquewhite;
+}
+.cards img {
+  width: 100%;
+}
+.card-body {
+  padding: 25px;
+}
+.cards {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.cards:hover {
+  background-color: aqua;
+}
+.para::before {
+  content: 'Whow';
+  background-color: red;
+  color: white;
+}
+.para::after {
+  content: 'what?';
+  background-color: rgb(83, 46, 46);
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  #first-text {
+    color: whitesmoke;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  
+}
